@@ -1,0 +1,20 @@
+{
+  "name": "hola",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass --watch scss -o css --output-style=expanded",
+    "prod": "node-sass --watch scss -o css --output-style=compact",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "klein994",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.0"
+  }
+}
